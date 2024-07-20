@@ -12,3 +12,15 @@ element that is the direct child of the first parent selector. */
 section > h2 {
   background-color: pink;
 }
+
+/* General Sibling Selector */
+/* <a>Not</a>
+<div></div>
+<a>Selected</a>
+<a>Selected</a> */
+/* div ~ a {
+  color: red;
+} select all the a after the div*/
+table ~ a {
+  background-color: purple;
+}

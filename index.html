@@ -1,65 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Selector Practice</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
     <header>
-        <h1 id="main-title">Welcome to CSS Selector Practice</h1>
-        <nav>
-            <ul class="navigation">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
+      <h1 id="main-title">Welcome to CSS Selector Practice</h1>
+      <nav>
+        <ul class="navigation">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h2>Home Section</h2>
-            <p>Welcome to our website. We provide a variety of services to help you succeed.</p>
-            <button class="cta-button">Learn More</button>
-        </section>
+      <section id="home">
+        <h2>Home Section</h2>
+        <p>
+          Welcome to our website. We provide a variety of services to help you
+          succeed.
+        </p>
+        <button class="cta-button">Learn More</button>
+      </section>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We are a company dedicated to providing the best services to our customers.</p>
-        </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          We are a company dedicated to providing the best services to our
+          customers.
+        </p>
+      </section>
 
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul class="services-list">
-                <li class="service-item">Web Development</li>
-                <li class="service-item">Graphic Design</li>
-                <li class="service-item">SEO Optimization</li>
-                <h2>Demo direct child</h2>
-            </ul>
-        </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul class="services-list">
+          <li class="service-item">Web Development</li>
+          <li class="service-item">Graphic Design</li>
+          <li class="service-item">SEO Optimization</li>
+          <h2>Demo direct child</h2>
+        </ul>
+      </section>
+      <section>
+        <a>Not</a>
+        <table>change color after this</table>
+        <a>Selected</a>
+        <a>Selected</a>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-
-                <button type="submit" class="submit-button">Send</button>
-            </form>
-        </section>
+          <button type="submit" class="submit-button">Send</button>
+        </form>
+      </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 CSS Selector Practice. All rights reserved.</p>
+      <p>&copy; 2024 CSS Selector Practice. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
