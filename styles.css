@@ -38,3 +38,8 @@ input {
   background-color: blue;
 }
 
+/* And selector */
+/* This selector allows you to write CSS selectors that force elements to match all the selectors specified. */
+section.home {
+  background-color: brown;
+}
