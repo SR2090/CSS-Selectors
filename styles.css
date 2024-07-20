@@ -30,3 +30,11 @@ table ~ a {
 h3 + h4 {
   background-color: purple;
 }
+
+/* OR selector */
+/* Operator => , applies styles to all the selected element */
+label,
+input {
+  background-color: blue;
+}
+
