@@ -24,3 +24,9 @@ section > h2 {
 table ~ a {
   background-color: purple;
 }
+
+/* Adjacent Sibling Selector */
+/* Direct selector selects the element that comes immediately after the first element */
+h3 + h4 {
+  background-color: purple;
+}
