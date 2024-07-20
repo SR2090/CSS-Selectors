@@ -1,0 +1,8 @@
+/* 
+Using desecent selector to selct li elements inside the nav 
+Demonstrate descendant selector
+*/
+nav ul li {
+  background-color: blueviolet;
+}
+/* Direct Child selector */
