@@ -6,3 +6,9 @@ nav ul li {
   background-color: blueviolet;
 }
 /* Direct Child selector */
+/* Selects the child element the main difference is the direct child selector will only select an 
+element that is the direct child of the first parent selector. */
+/* Demo child is also a child of section but we did not select it because it is not the direct child*/
+section > h2 {
+  background-color: pink;
+}
